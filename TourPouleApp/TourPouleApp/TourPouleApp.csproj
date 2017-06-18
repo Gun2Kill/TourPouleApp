@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,14 +47,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="dao\Database.cs" />
+    <Compile Include="dao\DatabaseLP.cs" />
+    <Compile Include="service\BusinessLogic.cs" />
+    <Compile Include="service\TourService.cs" />
+    <Compile Include="TourPouleApp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="TourPouleApp.Designer.cs">
+      <DependentUpon>TourPouleApp.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="TourPouleApp.resx">
+      <DependentUpon>TourPouleApp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -75,6 +83,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="stageImages\stage10map.jpg" />
+    <Content Include="stageImages\stage10profile.png" />
+    <Content Include="stageImages\stage11map.jpg" />
+    <Content Include="stageImages\stage11profile.png" />
+    <Content Include="stageImages\stage12map.jpg" />
+    <Content Include="stageImages\stage12profile.png" />
+    <Content Include="stageImages\stage13map.jpg" />
+    <Content Include="stageImages\stage13profile.png" />
+    <Content Include="stageImages\stage14map.jpg" />
+    <Content Include="stageImages\stage14profile.png" />
+    <Content Include="stageImages\stage15map.jpg" />
+    <Content Include="stageImages\stage15profile.png" />
+    <Content Include="stageImages\stage16map.jpg" />
+    <Content Include="stageImages\stage16profile.png" />
+    <Content Include="stageImages\stage17map.jpg" />
+    <Content Include="stageImages\stage17profile.png" />
+    <Content Include="stageImages\stage18map.jpg" />
+    <Content Include="stageImages\stage18profile.png" />
+    <Content Include="stageImages\stage19map.jpg" />
+    <Content Include="stageImages\stage19profile.png" />
+    <Content Include="stageImages\stage1map.jpg" />
+    <Content Include="stageImages\stage1profile.png" />
+    <Content Include="stageImages\stage20map.jpg" />
+    <Content Include="stageImages\stage20profile.png" />
+    <Content Include="stageImages\stage21map.jpg" />
+    <Content Include="stageImages\stage21profile.png" />
+    <Content Include="stageImages\stage2map.jpg" />
+    <Content Include="stageImages\stage2profile.png" />
+    <Content Include="stageImages\stage3map.jpg" />
+    <Content Include="stageImages\stage3profile.png" />
+    <Content Include="stageImages\stage4map.jpg" />
+    <Content Include="stageImages\stage4profile.png" />
+    <Content Include="stageImages\stage5map.jpg" />
+    <Content Include="stageImages\stage5profile.png" />
+    <Content Include="stageImages\stage6map.jpg" />
+    <Content Include="stageImages\stage6profile.png" />
+    <Content Include="stageImages\stage7map.jpg" />
+    <Content Include="stageImages\stage7profile.png" />
+    <Content Include="stageImages\stage8map.jpg" />
+    <Content Include="stageImages\stage8profile.png" />
+    <Content Include="stageImages\stage9map.jpg" />
+    <Content Include="stageImages\stage9profile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,1 +1,11 @@
 C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\bin\Debug\TourPouleApp.exe.config
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\bin\Debug\TourPouleApp.exe
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\bin\Debug\TourPouleApp.pdb
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\obj\Debug\TourPouleApp.Properties.Resources.resources
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\obj\Debug\TourPouleApp.csproj.GenerateResource.Cache
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\obj\Debug\TourPouleApp.exe
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\obj\Debug\TourPouleApp.pdb
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\obj\Debug\TourPouleApp.Form1.resources
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\obj\Debug\TourPouleApp.csprojResolveAssemblyReference.cache
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\bin\Debug\MySql.Data.dll
+C:\Users\robin\Documents\GitHub\TourPouleApp\TourPouleApp\TourPouleApp\bin\Debug\MySql.Data.xml
