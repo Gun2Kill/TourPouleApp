@@ -117,4 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="tbGeneral.Text" xml:space="preserve">
+    <value>- Aanmeldingen voor zaterdag 1 juli 2017 12:00 uur. Voor dit tijdstip mag het team nog gewijzigd worden.
+- Als een renner tijdens de Tour uitvalt, kan er geen veravanger worden ingezet.
+- De offiële startlijst wordt pas een dag voor de start bekend gemaakt. controlleer dan dus zelf of al je renners deelenemen.
+- Mocht een renner tijdens de Tour betrapt worden op doping, worden alle beaalde punten van deze renner geschrapt.
+- Bij de truien gaan de punten naar de leider in het betreffende klassement.
+- Op rustdagen worden er geen punten toegekend.
+- Na de laatste etappe worden er geen dagpunten toegekend voor de truien.
+- Alle uitslagen worden overgenomen van de offiële site.
+- Uitslagen worden na iedere etappe bekend gemaakt in de Tourpoule Whatsapp groep.
+- Inleg dient voor de eerste etappe finish binnen te zijn, als dit niet het geval is wordt deelnamen uitgesloten.</value>
+  </data>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

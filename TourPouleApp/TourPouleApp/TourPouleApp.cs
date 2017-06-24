@@ -42,5 +42,20 @@ namespace TourPouleApp
             pbStageMap.Image = Image.FromFile("C:/Users/robin/Documents/GitHub/TourPouleApp/TourPouleApp/TourPouleApp/stageImages/stage" + id + "map.jpg");
             pbStageProfile.Image = Image.FromFile("C:/Users/robin/Documents/GitHub/TourPouleApp/TourPouleApp/TourPouleApp/stageImages/stage" + id + "profile.png");
         }
+
+        private void tblGeneralEtappe_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tbGeneral_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
